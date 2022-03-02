@@ -1,0 +1,33 @@
+.section-formulaire{
+  border-top: 2px solid black;
+  padding:20px;
+}
+label{
+  display: block;
+  position: relative;
+}
+input[type="text"]{
+  border: 2px solid black;
+  width:100%;
+}
+textarea{
+  border: 2px solid black;
+  width:100%;
+}
+#btn-annul, #btn-submit{
+  font-family: 'Questrial', sans-serif;
+  float:right;
+  background-color: white;
+  height:30px;
+  width:80px;
+  border: 2px solid black;
+  text-align: center;
+  margin: 6px 4px;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: 0 5px 5px 0 #333333, 0 5px 5px 0 #333333;
+}
+#btn-annul:hover, #btn-submit:hover {
+  box-shadow: 0 7px 8px 0 #333333, 0 7px 10px 0 #333333;
+}
+

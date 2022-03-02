@@ -1,0 +1,12 @@
+<div id="section-personnes">
+  <h3>Personnes actives :</h3>
+  <ul id="liste-personnes" *ngIf="personnes.length>0">
+    <li *ngFor="let personne of personnes">
+      <a href="javascript:void(0)">{{personne.pseudo}}</a>
+    </li>
+  </ul>
+  <div id="no-personnes" *ngIf="!personnes || personnes.length==0">
+    Il n'y a aucun personne active!
+  </div>
+</div>
+

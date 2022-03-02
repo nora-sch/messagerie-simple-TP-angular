@@ -1,0 +1,11 @@
+
+<div id="liste-messages" *ngIf="messages.length>0">
+  <div id="message-block" *ngFor="let msg of messages">
+    <p class="info-msg"><a href="javascript:void(0)">{{msg.personne.pseudo}}</a> à écrit le {{ msg.date | date:'dd/MM/yyyy' | uppercase }} à {{ msg.date | date:'HH:mm' | uppercase}}</p>
+    <p class="text-msg"> {{msg.message}}</p>
+  </div>
+</div>
+
+<div id="no-messages" *ngIf="!messages || messages.length==0">
+ <p> Il n'y a aucun message!</p>
+</div>

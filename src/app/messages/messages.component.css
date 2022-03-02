@@ -1,0 +1,30 @@
+#msg-section {
+padding:10px;
+}
+#liste-messages{
+overflow-y:scroll;
+  padding:20px 10px;
+  max-height:350px;
+}
+a{
+  color:black;
+}
+.info-msg{
+  margin:0px;
+}
+.text-msg{
+  width:90%;
+  border:1px solid gray;
+  min-height: 50px;
+  padding:5px;
+  margin-top:1px;
+}
+#no-messages{
+  padding:10px;
+}
+#no-messages>p{
+  padding:10px;
+  background-color: coral;
+  color:white;
+  border-radius:5px;
+}
